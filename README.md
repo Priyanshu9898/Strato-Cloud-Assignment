@@ -1,0 +1,1 @@
+# Strato-Cloud-Assignment
