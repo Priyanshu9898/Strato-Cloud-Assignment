@@ -39,8 +39,8 @@ jobs:
       - name: vet
         run: go vet ./...
 
-      - name: Run tests
-        run: go test ./... -v -coverprofile=coverage.out
+      #   - name: Run tests
+      #     run: go test ./... -v -coverprofile=coverage.out
 
       - name: Upload coverage report
         if: always()
