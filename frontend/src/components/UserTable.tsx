@@ -88,12 +88,7 @@ export function UserTable() {
               today,
               parseISO(u.lastAccessDate)
             );
-            const rowClass =
-              pwdDays > 365
-                ? "bg-yellow-100"
-                : accessDays > 90
-                ? "bg-red-100"
-                : "";
+            const rowClass = accessDays > 90 ? "bg-red-100" : "";
 
             return (
               <TableRow key={u.name} className={rowClass}>

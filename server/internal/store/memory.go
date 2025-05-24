@@ -45,6 +45,41 @@ func NewMemoryStore() *MemoryStore {
 			LastAccessDate:      "2022-10-04",
 			MfaEnabled:          false,
 		},
+		{
+			Name:                "John Doe",
+			CreateDate:          "2021-06-15",
+			PasswordChangedDate: "2024-05-10",
+			LastAccessDate:      "2025-03-20",
+			MfaEnabled:          true,
+		},
+		{
+			Name:                "Jane Roe",
+			CreateDate:          "2020-12-01",
+			PasswordChangedDate: "2021-12-01",
+			LastAccessDate:      "2022-11-30",
+			MfaEnabled:          false,
+		},
+		{
+			Name:                "Test User",
+			CreateDate:          "2019-07-22",
+			PasswordChangedDate: "2023-01-10",
+			LastAccessDate:      "2025-05-01",
+			MfaEnabled:          true,
+		},
+		{
+			Name:                "Alpha Beta",
+			CreateDate:          "2018-02-14",
+			PasswordChangedDate: "2019-02-14",
+			LastAccessDate:      "2021-02-14",
+			MfaEnabled:          false,
+		},
+		{
+			Name:                "Gamma Delta",
+			CreateDate:          "2022-11-11",
+			PasswordChangedDate: "2023-11-11",
+			LastAccessDate:      "2025-04-30",
+			MfaEnabled:          true,
+		},
 	}}
 }
 
