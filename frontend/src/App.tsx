@@ -1,10 +1,11 @@
-import { Button } from "./components/ui/button";
+import { UserTable } from "./components/UserTable";
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-svh">
-      <Button>Click me</Button>
-    </div>
+    <main className="p-8">
+      {/* <h1 className="text-2xl font-bold mb-4">Strato Cloud: Users Overview</h1> */}
+      <UserTable />
+    </main>
   );
 }
 

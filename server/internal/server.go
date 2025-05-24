@@ -8,12 +8,19 @@ import (
 	"github.com/Priyanshu9898/Strato-Cloud-Assignment/internal/store"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
+	"github.com/go-chi/cors"
 )
 
 // NewRouter sets up routes and middleware.
 func NewRouter() http.Handler {
 	r := chi.NewRouter()
-
+	r.Use(cors.Handler(cors.Options{
+		AllowedOrigins:   []string{"http://localhost:5173"},
+		AllowedMethods:   []string{"GET", "OPTIONS"},
+		AllowedHeaders:   []string{"*"},
+		AllowCredentials: false,
+		MaxAge:           300,
+	}))
 	// Standard middleware
 	r.Use(middleware.RequestID)
 	r.Use(middleware.RealIP)
