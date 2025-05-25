@@ -25,8 +25,7 @@ func (h *UsersHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "failed to load users", http.StatusInternalServerError)
 		return
 	}
-
-	// —— Bonus: optional filtering by mfa query param ——
+	// Check for mfa query param
 	if mfaParam := r.URL.Query().Get("mfa"); mfaParam != "" {
 		want, err := strconv.ParseBool(mfaParam)
 		if err != nil {

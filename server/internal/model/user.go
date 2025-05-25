@@ -1,6 +1,5 @@
 package model
 
-// User represents a single row in our API.
 type User struct {
 	Name                string `json:"name"`
 	CreateDate          string `json:"createDate"`
