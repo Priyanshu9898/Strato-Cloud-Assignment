@@ -86,6 +86,4 @@ Please ensure all tests pass and code follows the existing style.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
 
-*Feel free to adjust badge links and branch names if your CI workflows differ.*
