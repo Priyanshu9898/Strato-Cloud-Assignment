@@ -1,5 +1,8 @@
 # Strato-Cloud-Assignment
 
+### Frontend deployed Link: https://strato-cloud-assignment.vercel.app/
+### Backend Deployed Link: https://strato-cloud-assignment.onrender.com
+
 [![Frontend CI](https://github.com/Priyanshu9898/Strato-Cloud-Assignment/actions/workflows/frontend-ci.yml/badge.svg)](https://github.com/Priyanshu9898/Strato-Cloud-Assignment/actions/workflows/frontend-ci.yml) ![Commit Activity](https://img.shields.io/github/commit-activity/y/Priyanshu9898/Strato-Cloud-Assignment) ![Issues](https://img.shields.io/github/issues/Priyanshu9898/Strato-Cloud-Assignment) ![Pull Requests](https://img.shields.io/github/issues-pr/Priyanshu9898/Strato-Cloud-Assignment) ![License](https://img.shields.io/github/license/Priyanshu9898/Strato-Cloud-Assignment)
 
 A take-home test for Strato-Cloud: a full-stack demo showing a real-time user table powered by a Go backend and a React frontend.
@@ -30,7 +33,7 @@ A take-home test for Strato-Cloud: a full-stack demo showing a real-time user ta
 2. **Start the backend server**:
    ```sh
    cd server
-   go run ./src/server/main.go
+   go run api.go
    ```
 
 3. **Start the frontend app**:
