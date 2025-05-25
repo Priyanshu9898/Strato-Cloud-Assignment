@@ -56,6 +56,41 @@ A take-home test for Strato-Cloud: a full-stack demo showing a real-time user ta
 
 ---
 
+## 🚩 API
+
+### `GET /api/users`
+
+Fetch all users, with optional MFA filtering.
+
+- **URL**: `/api/users`
+- **Method**: `GET`
+- **Query Parameters**:
+  - `mfa` (optional): `true` or `false` to filter by MFA status.
+- **Success Response**:
+  - **Code**: `200 OK`
+  - **Content**:
+    ```json
+    [
+      {
+        "name": "Foo Bar1",
+        "createDate": "2020-10-01",
+        "passwordChangedDate": "2021-10-01",
+        "lastAccessDate": "2025-01-04",
+        "mfaEnabled": true
+      },
+      {
+        "name": "Foo1 Bar1",
+        /* ... */
+      }
+      /* ... */
+    ]
+    ```
+- **Error Responses**:
+  - `400 Bad Request` if `mfa` is invalid.
+  - `500 Internal Server Error` on server failure.
+
+---
+
 
 ### Run Tests
 
