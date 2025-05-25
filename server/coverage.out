@@ -1,0 +1,19 @@
+mode: set
+github.com/Priyanshu9898/Strato-Cloud-Assignment/src/server/main.go:11.13,13.16 2 0
+github.com/Priyanshu9898/Strato-Cloud-Assignment/src/server/main.go:13.16,15.3 1 0
+github.com/Priyanshu9898/Strato-Cloud-Assignment/src/server/main.go:16.2,24.62 4 0
+github.com/Priyanshu9898/Strato-Cloud-Assignment/src/server/main.go:24.62,26.3 1 0
+github.com/Priyanshu9898/Strato-Cloud-Assignment/internal/server.go:15.31,36.2 10 1
+github.com/Priyanshu9898/Strato-Cloud-Assignment/internal/store/memory.go:11.36,84.2 1 1
+github.com/Priyanshu9898/Strato-Cloud-Assignment/internal/store/memory.go:87.59,89.2 1 1
+github.com/Priyanshu9898/Strato-Cloud-Assignment/internal/handler/users.go:18.51,20.2 1 1
+github.com/Priyanshu9898/Strato-Cloud-Assignment/internal/handler/users.go:22.74,24.16 2 1
+github.com/Priyanshu9898/Strato-Cloud-Assignment/internal/handler/users.go:24.16,27.3 2 0
+github.com/Priyanshu9898/Strato-Cloud-Assignment/internal/handler/users.go:30.2,30.58 1 1
+github.com/Priyanshu9898/Strato-Cloud-Assignment/internal/handler/users.go:30.58,32.17 2 1
+github.com/Priyanshu9898/Strato-Cloud-Assignment/internal/handler/users.go:32.17,35.4 2 0
+github.com/Priyanshu9898/Strato-Cloud-Assignment/internal/handler/users.go:36.3,37.27 2 1
+github.com/Priyanshu9898/Strato-Cloud-Assignment/internal/handler/users.go:37.27,38.28 1 1
+github.com/Priyanshu9898/Strato-Cloud-Assignment/internal/handler/users.go:38.28,40.5 1 1
+github.com/Priyanshu9898/Strato-Cloud-Assignment/internal/handler/users.go:42.3,42.19 1 1
+github.com/Priyanshu9898/Strato-Cloud-Assignment/internal/handler/users.go:45.2,46.34 2 1
