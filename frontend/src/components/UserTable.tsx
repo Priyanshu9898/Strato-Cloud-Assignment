@@ -25,8 +25,10 @@ export function UserTable() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8080";
+
   useEffect(() => {
-    fetch(`http://localhost:8080/api/users`)
+    fetch(`${API_URL}/api/users`)
       .then((res) => {
         if (!res.ok) throw new Error(`Server responded ${res.status}`);
         return res.json() as Promise<User[]>;
