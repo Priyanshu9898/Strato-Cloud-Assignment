@@ -30,17 +30,17 @@ A take-home test for Strato-Cloud: a full-stack demo showing a real-time user ta
 2. **Start the backend server**:
    ```sh
    cd server
-   go run ./cmd/server
+   go run ./src/server/main.go
    ```
 
 3. **Start the frontend app**:
    ```sh
-   cd client
+   cd frontend
    npm install
    npm run dev
    ```
 
-4. Open your browser at `http://localhost:3000` to view the live user table.
+4. Open your browser at `http://localhost:5173` to view the live user table.
 
 ---
 
@@ -48,14 +48,11 @@ A take-home test for Strato-Cloud: a full-stack demo showing a real-time user ta
 
 - Fetches user data from a Go `/api/users` endpoint
 - Calculates **Days Since Last Password Change** and **Days Since Last Access** dynamically
-- Displays real-time updates via Server-Sent Events (bonus)
-- Filtering by MFA status and highlighting stale users (bonus)
+- Filtering by MFA status
+- Highlighting stale users
 
 ---
 
-## 🧪 Testing & Coverage
-
-![Coverage Status](https://img.shields.io/codecov/c/github/Priyanshu9898/Strato-Cloud-Assignment?branch=main)
 
 ### Run Tests
 
@@ -67,8 +64,8 @@ A take-home test for Strato-Cloud: a full-stack demo showing a real-time user ta
 
 - **React** (Jest + React Testing Library):
   ```sh
-  cd client
-  npm run test -- --coverage
+  cd frontend
+  npm run test
   ```
 
 ---
