@@ -15,7 +15,7 @@ import (
 func NewRouter() http.Handler {
 	r := chi.NewRouter()
 	r.Use(cors.Handler(cors.Options{
-		AllowedOrigins:   []string{"http://localhost:5173"},
+		AllowedOrigins:   []string{"http://localhost:5173", "https://strato-cloud-assignment.vercel.app/"},
 		AllowedMethods:   []string{"GET", "OPTIONS"},
 		AllowedHeaders:   []string{"*"},
 		AllowCredentials: false,
